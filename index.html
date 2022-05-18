@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="heading fs-2 fw-bold text-center text-success">Movies</h2>
+
+    <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+      <input class="search-input" type="search" name="movie" id="movie" aria-label="search" placeholder="Title" autofocus autocomplete="off">
+    </form>
+
+    <ul class="movies-list">
+      <li class="card">
+        <a class="card-link d-inline-block" href="https://www.youtube.com/watch?v=4hZi5QaMBFc">
+          <img class="card-img-top d-block" src="https://i3.ytimg.com/vi/4hZi5QaMBFc/maxresdefault.jpg" alt="Patton Oswalt: Annihilation">
+        </a>
+  
+        <div class="card-body">
+          <h5 class="card-title title">Patton Oswalt: Annihilation</h5>
+          <p class="card-text fulltitle">Patton Oswalt: Annihilation (2017)</p>
+          <p class="card-text year">2017</p>
+          <p class="card-text categories">Uncategorized</p>
+          <p class="card-text summary">Patton Oswald, despite a personal tragedy, produces his best standup yet. Focusing on the tribulations of the Trump era and life after the loss of a loved one, Patton Oswald continues his journey to contribute joy to the world.</p>
+          <p class="card-text runtime">66</p>
+          <p class="card-text language">English</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <template>
+    <li class="card">
+      <a class="card-link d-inline-block" href="https://www.youtube.com/watch?v=4hZi5QaMBFc">
+        <img class="card-img-top d-block" src="https://i3.ytimg.com/vi/4hZi5QaMBFc/maxresdefault.jpg" alt="Patton Oswalt: Annihilation">
+      </a>
+
+      <div class="card-body">
+        <h5 class="card-title title">Patton Oswalt: Annihilation</h5>
+        <p class="card-text fulltitle">Patton Oswalt: Annihilation (2017)</p>
+        <p class="card-text year">2017</p>
+        <p class="card-text categories">Uncategorized</p>
+        <p class="card-text summary">Patton Oswald, despite a personal tragedy, produces his best standup yet. Focusing on the tribulations of the Trump era and life after the loss of a loved one, Patton Oswald continues his journey to contribute joy to the world.</p>
+        <p class="card-text runtime">66</p>
+        <p class="card-text language">English</p>
+      </div>
+    </li>
+  </template>
+
+  
+
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/movies.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
