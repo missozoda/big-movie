@@ -27,7 +27,7 @@ let createMovieItem = (movie) => {
 
   let elNewLi = elTemplate.cloneNode(true);
 
-  // $(".youtube-link", elNewLi).href = "https://www.youtube.com/watch?v=" + movie.youtube;
+  $(".youtube-link", elNewLi).href = `https:www.youtube.com/watch?v=${movie.youtube}`;
   $("img", elNewLi).src = `https://i3.ytimg.com/vi/${movie.youtube}/maxresdefault.jpg`
   $(".title", elNewLi).textContent = `Title: ${movie.title}`;
   $(".fulltitle", elNewLi).textContent = `Fulltitle: ${movie.fulltitle}`;
